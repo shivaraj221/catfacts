@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Center tag styling */
+center {
+    text-align: center;
+}
+
+/* Image styling */
+img {
+    max-height: 600px;
+    width: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+/* Button styling */
+#btn {
+    padding: 10px 20px;
+    padding-bottom: 10px 100px;
+
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+#btn:hover {
+    background-color: #45a049;
+}
+
+/* Fact paragraph styling */
+#fact {
+    font-size: 18px;
+    color: #333;
+    margin-top: 20px;
+    max-width: 600px;
+    text-align: center;
+}
