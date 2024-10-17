@@ -1,36 +1,25 @@
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 100vh;
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-image: url('012.jpeg');
+    background-size: cover;            /* Ensures the image covers the width of the screen */
+    background-position: center top;   /* Starts the image at the top center */
+    background-repeat: no-repeat;      /* No horizontal repeat */
+    background-attachment: scroll;     /* Allows background to scroll with content */  
 }
+
 
 /* Center tag styling */
 center {
     text-align: center;
 }
 
-/* Image styling */
-img {
-    max-height: 600px;
-    width: auto;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    margin-bottom: 20px;
-}
 
 /* Button styling */
 #btn {
+    margin-left: 600px;
     padding: 10px 20px;
     padding-bottom: 10px 100px;
-
     background-color: #4CAF50;
     color: white;
-    text-align: center;
     border: none;
     border-radius: 5px;
     cursor: pointer;
